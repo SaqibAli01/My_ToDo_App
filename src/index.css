@@ -1,13 +1,111 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100vh;
+  background: #c3b3b3;
+}
+div{
+  background-color: gray;
+  padding: 60px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul li {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
 }
+
+ul li button {
+  font-size: 20px;
+  padding: 0 10px 3px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  margin: 0 3px;
+  cursor: pointer;
+
+}
+
+.inputForm {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.inputForm input {
+  border: none;
+  height: 20px;
+  outline: none;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+
+
+.inputForm button {
+  border: none;
+  width: 150px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+.inputForm button:hover{
+  background-color: green;
+  font-weight: 600;
+}
+
+.TodoDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+span>button:hover{
+  background-color: yellow;
+  color: red;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  padding: 5px;
+  background-color: brown;
+}
+  .TodoDiv>div {
+    color: white;
+    padding: 20px;
+    margin-top:10px;
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    border: 2px solid firebrick;
+  }
+.TodoDiv>div:hover{
+  background-color: green;
+}
+
+img{
+  width: 20px;
+}
+img:hover{
+  cursor: pointer;
+  background-color: aqua;
+  padding: 1px;
+}
+/* arrow  */
